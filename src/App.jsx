@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Meme Generator</h1>
+        <h2>Meme Generator</h2>
         <MemeGenerator />
       </header>
     </div>
