@@ -12,6 +12,8 @@ const MemeGenerator = () => {
     setMeme({ url, title, author });
   };
 
+
+  
   const generateMeme = () => {
     fetch("https://meme-api.com/gimme")
       .then((response) => response.json())
